@@ -151,7 +151,7 @@ class InfoCard(QFrame):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.api_key = "ab04093855c57e38932461d82eb94461" # Replace with your actual key
+        self.api_key = "put_your_api_key" # Replace with your actual key
         self.current_unit = "celsius"
         self.weather_data: Optional[Dict[str, Any]] = None
         
@@ -425,3 +425,4 @@ if __name__ == "__main__":
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
+
